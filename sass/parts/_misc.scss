@@ -38,6 +38,9 @@ blockquote {
 a {
   color: inherit;
   text-decoration: none;
+  //text-decoration-color: var(--primary-color);
+  //text-decoration-thickness: 2px;
+  //text-decoration-style: solid;
 
   /* use colored hovering */
   &:hover {
