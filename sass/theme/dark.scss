@@ -26,3 +26,18 @@ $text-2: lighten($bg-0, 40%);
     filter: invert(1);
   }
 }
+
+.highlight-code-wrapper {
+  background-color: lighten($bg-1, 10%);
+  padding: 2px 4px;
+  border-radius: 3px;
+  display: inline-block;
+  
+  code {
+    background: none !important;
+    background-color: transparent !important;
+    padding: 0 !important;
+    border: none !important;
+    color: $text-0 !important;
+  }
+}
